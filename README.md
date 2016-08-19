@@ -1,2 +1,3 @@
-# iflux2-web-boot
-iflux2 web scaffold
+# iflux2-blog
+iflux2 blog demo
+
