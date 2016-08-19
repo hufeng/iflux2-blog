@@ -33,8 +33,4 @@ export default class BlogList extends Component {
       </ul>
     )
   }
-
-  _handleClick(id) {
-
-  }
 }
