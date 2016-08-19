@@ -1,19 +1,18 @@
 import React, {Component} from 'react'
 import {StoreProvider} from 'iflux2'
 import AppStore from './store'
-import MessageContainer from './container/message-container'
+import BlogList from './component/blog-list'
 
 
 @StoreProvider(AppStore, {debug: true})
-export default class HelloApp extends Component {
+export default class BlogListApp extends Component {
   componentDidMount() {
     this.props.store.init()
   }
 
-
   render() {
     return (
-      <MessageContainer/>
+      <BlogList/>
     )
   }
 }

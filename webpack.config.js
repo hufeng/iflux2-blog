@@ -2,7 +2,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   devtool: 'cheap-module-source-map',
-  entry: './index.js',
+  entry: './apps/index.js',
   output: {
     path: './build',
     filename: 'bundle.js'
